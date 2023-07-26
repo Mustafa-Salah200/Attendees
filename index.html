@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendees'System</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="box card p-3" >
+        <div>
+            <h2 class="text-primary fw-bolder p-3 ms-2 title">List Of Student Names</h2>
+            <div class="info d-sm-flex align-items-center">
+                <span class="ms-2 fs-4 text-primary-emphasis">Please Enter The Date</span>
+                <input class="p-2 ms-4 mt-2 mb-2" type="date" name="data" id="data">
+                <button onclick=getdata() class="btn btn-success text-white fw-bold ms-3">Show Details</button>
+            </div>
+        </div>
+        <div class="test row p-3">
+        </div>
+        <button class="m-3 btn btn-primary fw-bold" onclick=show()>Add</button>
+    </div>
+
+
+
+
+
+    <div class="show">
+        <table class="w-100 m-3">
+            <thead>
+                <tr>
+                    <th class="pb-4">#</th>
+                    <th class="pb-4">Name</th>
+                    <th class="pb-4">Attendees</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td>1</td>
+                    <td>Mustafa Salah Alden</td>
+                    <td>true</td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
